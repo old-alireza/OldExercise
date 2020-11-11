@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="citiesName">
+        <item>Iran</item>
+        <item>Germany</item>
+        <item>Turkey</item>
+        <item>Unite state</item>
+        <item>England</item>
+        <item>Italy</item>
+        <item>Spain</item>
+        <item>koveit</item>
+        <item>eraq</item>
+        <item>porteqal</item>
+
+    </string-array>
+
+    <integer-array name="flag_countries">
+        <item>@drawable/state_1</item>
+        <item>@drawable/state_2</item>
+        <item>@drawable/state_1</item>
+        <item>@drawable/state_2</item>
+        <item>@drawable/state_1</item>
+        <item>@drawable/state_2</item>
+        <item>@drawable/state_1</item>
+        <item>@drawable/state_2</item>
+        <item>@drawable/state_1</item>
+        <item>@drawable/state_2</item>
+
+    </integer-array>
+
+</resources>

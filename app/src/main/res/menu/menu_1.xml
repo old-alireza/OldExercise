@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="item1">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_sms"
+                android:title="SMS"/>
+
+            <item
+                android:id="@+id/menu_browser"
+                android:title="BROWSER"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="item2">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_image"
+                android:title="image"/>
+
+            <item
+                android:id="@+id/menu_audio"
+                android:title="audio"/>
+
+            <item
+                android:id="@+id/menu_Video"
+                android:title="video"/>
+        </menu>
+
+
+    </item>
+
+    <item
+        android:id="@+id/dialog"
+        android:title="dialog"/>
+
+    <item
+        android:title="listView">
+
+        <menu>
+            <item
+                android:id="@+id/simple_list"
+                android:title="simpleList"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/simple_toast"
+        android:title="toast"/>
+
+    <item
+        android:id="@+id/radio"
+        android:title="radioButton"/>
+
+    <item
+        android:id="@+id/ratingBar"
+        android:title="rating bar"/>
+
+    <item
+        android:id="@+id/spinner"
+        android:title="spinner"/>
+    
+</menu>

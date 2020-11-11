@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".RadioActivity">
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp">
+
+        <RadioButton
+            android:button="@android:color/transparent"
+            android:background="@drawable/background_radio"
+            android:id="@+id/rb1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="1"
+            android:padding="10dp"
+            android:text="Tehran"/>
+
+        <RadioButton
+            android:button="@android:color/transparent"
+            android:background="@drawable/background_radio"
+            android:id="@+id/rb2"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="2"
+            android:padding="10dp"
+            android:text="Tabriz"/>
+
+        <RadioButton
+            android:button="@android:color/transparent"
+            android:background="@drawable/background_radio"
+            android:id="@+id/rb3"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="3"
+            android:padding="10dp"
+            android:text="Shiraz"/>
+
+        <RadioButton
+            android:button="@android:color/transparent"
+            android:background="@drawable/background_radio"
+            android:id="@+id/rb4"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="4"
+            android:padding="10dp"
+            android:text="Kerman"/>
+
+        <Button
+            android:id="@+id/btn_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="choose" />
+
+    </RadioGroup>
+
+</LinearLayout>
